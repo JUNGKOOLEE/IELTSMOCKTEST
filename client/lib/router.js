@@ -3,6 +3,6 @@
  */
 FlowRouter.route('/', {
     action() {
-        ReactLayout.render(App, {content: <Header />});
+        ReactLayout.render(<MainLayout/>, {content: <Header />});
     }
 });
