@@ -2,22 +2,22 @@ Header = React.createClass({
 
     render() {
         return (
-            <header id="header" class="transparent-header dark full-header no-sticky">
+            <header id="header" className="transparent-header dark full-header no-sticky">
                 <div id="header-wrap">
-                    <div class="container clearfix">
+                    <div className="container clearfix">
 
-                        <div id="primary-menu-trigger"><i class="icon-reorder"/></div>
+                        <div id="primary-menu-trigger"><i className="icon-reorder"/></div>
 
                         <div id="logo">
-                            <a href="index.html" class="standard-logo" data-dark-logo="/images/logo/logo-dark.png"><img src="/images/logo/logo.png" alt="Canvas Logo"/></a>
-                            <a href="index.html" class="retina-logo" data-dark-logo="/images/logo/logo-dark@2x.png"><img src="/images/logo/logo@2x.png" alt="Canvas Logo"/></a>
+                            <a href="index.html" className="standard-logo" data-dark-logo="/images/logo/logo-dark.png"><img src="/images/logo/logo.png" alt="IELTSMOCKTEST.COM"/></a>
+                            <a href="index.html" className="retina-logo" data-dark-logo="/images/logo/logo-dark.png"><img src="/images/logo/logo.png" alt="IELTSMOCKTEST.COM"/></a>
                         </div>
 
 
                         <nav id="primary-menu">
 
                             <ul>
-                                <li class="current"><a href="index.html"><div>Home</div></a>
+                                <li className="current"><a href="index.html"><div>I Love Andy</div></a>
                                     <ul>
                                         <li><a href="index-corporate.html"><div>Home - Corporate</div></a>
                                             <ul>
@@ -85,9 +85,9 @@ Header = React.createClass({
                                         <li><a href="index-app-showcase.html"><div>Home - App Showcase</div></a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#"><div>Features</div></a>
+                                <li><a href="#"><div>Andy Babo</div></a>
                                     <ul>
-                                        <li><a href="#"><div><i class="icon-stack"/>Sliders</div></a>
+                                        <li><a href="#"><div><i className="icon-stack"/>Sliders</div></a>
                                             <ul>
                                                 <li><a href="slider-revolution.html"><div>Revolution Slider</div></a>
                                                     <ul>
@@ -136,7 +136,7 @@ Header = React.createClass({
                                                 <li><a href="slider-nivo.html"><div>Nivo Slider</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="widgets.html"><div><i class="icon-gift"></i>Widgets</div></a>
+                                        <li><a href="widgets.html"><div><i className="icon-gift"></i>Widgets</div></a>
                                             <ul>
                                                 <li><a href="widgets.html"><div>Links</div></a></li>
                                                 <li><a href="widgets.html"><div>Flickr Photostream</div></a></li>
@@ -155,7 +155,7 @@ Header = React.createClass({
                                                 <li><a href="widgets.html"><div>Raw Text/HTML</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><div><i class="icon-umbrella"></i>Headers</div></a>
+                                        <li><a href="#"><div><i className="icon-umbrella"></i>Headers</div></a>
                                             <ul>
                                                 <li><a href="header-light.html"><div>Light Version</div></a></li>
                                                 <li><a href="header-dark.html"><div>Dark Version</div></a></li>
@@ -186,7 +186,7 @@ Header = React.createClass({
                                                 <li><a href="logo-changer.html"><div>Alternate Logos</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="side-panel.html"><div><i class="icon-line-layout"></i>Side Panel</div></a>
+                                        <li><a href="side-panel.html"><div><i className="icon-line-layout"></i>Side Panel</div></a>
                                             <ul>
                                                 <li><a href="side-panel-left-overlay.html"><div>Left Overlay</div></a></li>
                                                 <li><a href="side-panel-left-push.html"><div>Left Push</div></a></li>
@@ -195,7 +195,7 @@ Header = React.createClass({
                                                 <li><a href="side-panel-light.html"><div>Light Background</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><div><i class="icon-align-justify2"></i>Menu Styles</div></a>
+                                        <li><a href="#"><div><i className="icon-align-justify2"></i>Menu Styles</div></a>
                                             <ul>
                                                 <li><a href="header-light.html"><div>Menu - Style 1</div></a></li>
                                                 <li><a href="menu-2.html"><div>Menu - Style 2</div></a></li>
@@ -209,7 +209,7 @@ Header = React.createClass({
                                                 <li><a href="menu-10.html"><div>Menu - Overlay</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><div><i class="icon-ok-sign"></i>Page Titles</div></a>
+                                        <li><a href="#"><div><i className="icon-ok-sign"></i>Page Titles</div></a>
                                             <ul>
                                                 <li><a href="page.html"><div>Left Align</div></a></li>
                                                 <li><a href="page-title-right.html"><div>Right Align</div></a></li>
@@ -227,7 +227,7 @@ Header = React.createClass({
                                                 <li><a href="page-title-mini.html"><div>Mini Version</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="contact.html"><div><i class="icon-envelope-alt"></i>Contact Pages</div></a>
+                                        <li><a href="contact.html"><div><i className="icon-envelope-alt"></i>Contact Pages</div></a>
                                             <ul>
                                                 <li><a href="contact.html">Contact 1</a></li>
                                                 <li><a href="contact-2.html">Contact 2</a></li>
@@ -238,7 +238,7 @@ Header = React.createClass({
                                                 <li><a href="contact-7.html">Contact 7</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#footer" data-scrollto="#footer"><div><i class="icon-th"></i>Footers</div></a>
+                                        <li><a href="#footer" data-scrollto="#footer"><div><i className="icon-th"></i>Footers</div></a>
                                             <ul>
                                                 <li><a href="sticky-footer.html"><div>Sticky Footer</div></a></li>
                                                 <li><a href="#footer" data-scrollto="#footer"><div>Footer - Layout 1</div></a></li>
@@ -250,7 +250,7 @@ Header = React.createClass({
                                                 <li><a href="footer-7.html#footer"><div>Footer - Layout 7</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><div><i class="icon-calendar3"></i>Events</div></a>
+                                        <li><a href="#"><div><i className="icon-calendar3"></i>Events</div></a>
                                             <ul>
                                                 <li><a href="events-calendar.html"><div>Full Width Calendar</div></a></li>
                                                 <li><a href="events-list.html"><div>Events List</div></a>
@@ -280,7 +280,7 @@ Header = React.createClass({
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="modal-onload.html"><div><i class="icon-line-expand"></i>Modal OnLoad</div></a>
+                                        <li><a href="modal-onload.html"><div><i className="icon-line-expand"></i>Modal OnLoad</div></a>
                                             <ul>
                                                 <li><a href="modal-onload.html"><div>Simple Layout</div></a></li>
                                                 <li><a href="modal-onload-iframe.html"><div>Video iFrame</div></a></li>
@@ -289,20 +289,20 @@ Header = React.createClass({
                                                 <li><a href="modal-onload-cookie.html"><div>Cookies Enabled</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="coming-soon.html"><div><i class="icon-time"></i>Coming Soon</div></a>
+                                        <li><a href="coming-soon.html"><div><i className="icon-time"></i>Coming Soon</div></a>
                                             <ul>
                                                 <li><a href="coming-soon.html"><div>Simple Layout</div></a></li>
                                                 <li><a href="coming-soon-2.html"><div>Parallax Image</div></a></li>
                                                 <li><a href="coming-soon-3.html"><div>HTML5 Video</div></a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"><div><i class="icon-adjust"></i>Dark Version</div></a></li>
+                                        <li><a href="#"><div><i className="icon-adjust"></i>Dark Version</div></a></li>
                                     </ul>
                                 </li>
-                                <li class="mega-menu"><a href="#"><div>Pages</div></a>
-                                    <div class="mega-menu-content style-2 col-4 clearfix">
+                                <li className="mega-menu"><a href="#"><div>Pages</div></a>
+                                    <div className="mega-menu-content style-2 col-4 clearfix">
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Introduction</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Introduction</div></a>
                                                 <ul>
                                                     <li><a href="about.html"><div>About Us</div></a></li>
                                                     <li><a href="about-2.html"><div>About Us - Layout 2</div></a></li>
@@ -316,7 +316,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Utility</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Utility</div></a>
                                                 <ul>
                                                     <li><a href="services.html"><div>Services - Layout 1</div></a></li>
                                                     <li><a href="services-2.html"><div>Services - Layout 2</div></a></li>
@@ -330,7 +330,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Layout Grids</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Layout Grids</div></a>
                                                 <ul>
                                                     <li><a href="full-width.html"><div>Full Width</div></a></li>
                                                     <li><a href="full-width-wide.html"><div>Full Width - Wide</div></a></li>
@@ -344,7 +344,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Miscellaneous</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Miscellaneous</div></a>
                                                 <ul>
                                                     <li><a href="login-register.html"><div>Login/Register</div></a></li>
                                                     <li><a href="login-register-2.html"><div>Login/Register - Style 2</div></a></li>
@@ -359,10 +359,10 @@ Header = React.createClass({
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="mega-menu"><a href="#"><div>Portfolio</div></a>
-                                    <div class="mega-menu-content style-2 col-5 clearfix">
+                                <li className="mega-menu"><a href="#"><div>Portfolio</div></a>
+                                    <div className="mega-menu-content style-2 col-5 clearfix">
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Grids</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Grids</div></a>
                                                 <ul>
                                                     <li><a href="portfolio-1.html"><div>1 Column</div></a></li>
                                                     <li><a href="portfolio-2.html"><div>2 Columns</div></a></li>
@@ -374,7 +374,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Masonry</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Masonry</div></a>
                                                 <ul>
                                                     <li><a href="portfolio-mixed-masonry.html"><div>Mixed Columns</div></a></li>
                                                     <li><a href="portfolio-2-masonry.html"><div>2 Columns</div></a></li>
@@ -386,7 +386,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Loading Styles</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Loading Styles</div></a>
                                                 <ul>
                                                     <li><a href="portfolio.html"><div>jQuery Filter</div></a></li>
                                                     <li><a href="portfolio-pagination.html"><div>Pagination</div></a></li>
@@ -398,7 +398,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Single Project</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Single Project</div></a>
                                                 <ul>
                                                     <li><a href="portfolio-single-extended.html"><div>Extended Item</div></a></li>
                                                     <li><a href="portfolio-single-fullwidth.html"><div>Parallax Image</div></a></li>
@@ -410,7 +410,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Layouts</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Layouts</div></a>
                                                 <ul>
                                                     <li><a href="portfolio-nomargin.html"><div>Default</div></a></li>
                                                     <li><a href="portfolio-1-alt-right-sidebar.html"><div>Right Sidebar</div></a></li>
@@ -423,10 +423,10 @@ Header = React.createClass({
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="mega-menu"><a href="#"><div>Blog</div></a>
-                                    <div class="mega-menu-content style-2 col-4 clearfix">
+                                <li className="mega-menu"><a href="#"><div>Blog</div></a>
+                                    <div className="mega-menu-content style-2 col-4 clearfix">
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Default</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Default</div></a>
                                                 <ul>
                                                     <li><a href="blog.html"><div>Right Sidebar</div></a></li>
                                                     <li><a href="blog-left-sidebar.html"><div>Left Sidebar</div></a></li>
@@ -434,7 +434,7 @@ Header = React.createClass({
                                                     <li><a href="blog-full-width.html"><div>Full Width</div></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-title"><a href="#"><div>Timeline</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Timeline</div></a>
                                                 <ul>
                                                     <li><a href="blog-timeline-right-sidebar.html"><div>Right Sidebar</div></a></li>
                                                     <li><a href="blog-timeline-left-sidebar.html"><div>Left Sidebar</div></a></li>
@@ -443,7 +443,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Masonry</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Masonry</div></a>
                                                 <ul>
                                                     <li><a href="blog-masonry.html"><div>4 Columns</div></a></li>
                                                     <li><a href="blog-masonry-3.html"><div>3 Columns</div></a></li>
@@ -451,7 +451,7 @@ Header = React.createClass({
                                                     <li><a href="blog-masonry-full.html"><div>100% Width</div></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-title"><a href="#"><div>Grid</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Grid</div></a>
                                                 <ul>
                                                     <li><a href="blog-grid.html"><div>4 Columns</div></a></li>
                                                     <li><a href="blog-grid-3.html"><div>3 Columns</div></a></li>
@@ -460,7 +460,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Small Thumbs</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Small Thumbs</div></a>
                                                 <ul>
                                                     <li><a href="blog-small-left-sidebar.html"><div>Left Sidebar</div></a></li>
                                                     <li><a href="blog-small.html"><div>Right Sidebar</div></a></li>
@@ -469,7 +469,7 @@ Header = React.createClass({
                                                     <li><a href="blog-small-alt.html"><div>Alternate Layout</div></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-title"><a href="#"><div>Item Splitting</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Item Splitting</div></a>
                                                 <ul>
                                                     <li><a href="blog-grid.html"><div>Pagination</div></a></li>
                                                     <li><a href="blog-masonry.html"><div>Infinite Scroll</div></a></li>
@@ -477,7 +477,7 @@ Header = React.createClass({
                                             </li>
                                         </ul>
                                         <ul>
-                                            <li class="mega-menu-title"><a href="#"><div>Single</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Single</div></a>
                                                 <ul>
                                                     <li><a href="blog-single.html"><div>Default Layout</div></a></li>
                                                     <li><a href="blog-single-left-sidebar.html"><div>Left Sidebar</div></a></li>
@@ -486,7 +486,7 @@ Header = React.createClass({
                                                     <li><a href="blog-single-split-right-sidebar.html"><div>Split Layout</div></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-title"><a href="#"><div>Comments Module</div></a>
+                                            <li className="mega-menu-title"><a href="#"><div>Comments Module</div></a>
                                                 <ul>
                                                     <li><a href="blog-single-left-sidebar.html#comments"><div>Facebook Comments</div></a></li>
                                                     <li><a href="blog-single-small.html#comments"><div>Disqus Comments</div></a></li>
@@ -533,52 +533,52 @@ Header = React.createClass({
                                         <li><a href="checkout.html"><div>Checkout</div></a></li>
                                     </ul>
                                 </li>
-                                <li class="mega-menu"><a href="#"><div>Shortcodes</div></a>
-                                    <div class="mega-menu-content col-5 clearfix">
+                                <li className="mega-menu"><a href="#"><div>Shortcodes</div></a>
+                                    <div className="mega-menu-content col-5 clearfix">
                                         <ul>
-                                            <li><a href="animations.html"><div><i class="icon-magic"></i>Animations</div></a></li>
-                                            <li><a href="buttons.html"><div><i class="icon-link"></i>Buttons</div></a></li>
-                                            <li><a href="carousel.html"><div><i class="icon-heart3"></i>Carousel</div></a></li>
-                                            <li><a href="charts.html"><div><i class="icon-bar-chart"></i>Charts</div></a></li>
-                                            <li><a href="clients.html"><div><i class="icon-apple"></i>Clients</div></a></li>
-                                            <li><a href="columns-grids.html"><div><i class="icon-th-large"></i>Columns</div></a></li>
-                                            <li><a href="counters.html"><div><i class="icon-time"></i>Counters</div></a></li>
+                                            <li><a href="animations.html"><div><i className="icon-magic"></i>Animations</div></a></li>
+                                            <li><a href="buttons.html"><div><i className="icon-link"></i>Buttons</div></a></li>
+                                            <li><a href="carousel.html"><div><i className="icon-heart3"></i>Carousel</div></a></li>
+                                            <li><a href="charts.html"><div><i className="icon-bar-chart"></i>Charts</div></a></li>
+                                            <li><a href="clients.html"><div><i className="icon-apple"></i>Clients</div></a></li>
+                                            <li><a href="columns-grids.html"><div><i className="icon-th-large"></i>Columns</div></a></li>
+                                            <li><a href="counters.html"><div><i className="icon-time"></i>Counters</div></a></li>
                                         </ul>
                                         <ul>
-                                            <li><a href="dividers.html"><div><i class="icon-indent-right"></i>Dividers</div></a></li>
-                                            <li><a href="featured-boxes.html"><div><i class="icon-lightbulb"></i>Icon Boxes</div></a></li>
-                                            <li><a href="gallery.html"><div><i class="icon-picture"></i>Galleries</div></a></li>
-                                            <li><a href="headings-dropcaps.html"><div><i class="icon-pencil2"></i>Heading Styles</div></a></li>
-                                            <li><a href="icon-lists.html"><div><i class="icon-list-alt"></i>Icon Lists</div></a></li>
-                                            <li><a href="labels-badges.html"><div><i class="icon-plus-sign"></i>Labels</div></a></li>
-                                            <li><a href="lightbox.html"><div><i class="icon-resize-full"></i>Lightbox</div></a></li>
+                                            <li><a href="dividers.html"><div><i className="icon-indent-right"></i>Dividers</div></a></li>
+                                            <li><a href="featured-boxes.html"><div><i className="icon-lightbulb"></i>Icon Boxes</div></a></li>
+                                            <li><a href="gallery.html"><div><i className="icon-picture"></i>Galleries</div></a></li>
+                                            <li><a href="headings-dropcaps.html"><div><i className="icon-pencil2"></i>Heading Styles</div></a></li>
+                                            <li><a href="icon-lists.html"><div><i className="icon-list-alt"></i>Icon Lists</div></a></li>
+                                            <li><a href="labels-badges.html"><div><i className="icon-plus-sign"></i>Labels</div></a></li>
+                                            <li><a href="lightbox.html"><div><i className="icon-resize-full"></i>Lightbox</div></a></li>
                                         </ul>
                                         <ul>
-                                            <li><a href="lists-panels.html"><div><i class="icon-th-list"></i>Lists &amp; Panels</div></a></li>
-                                            <li><a href="maps.html"><div><i class="icon-map-marker2"></i>Maps</div></a></li>
-                                            <li><a href="media-embeds.html"><div><i class="icon-play"></i>Media Embeds</div></a></li>
-                                            <li><a href="modal-popovers.html"><div><i class="icon-move"></i>Modal Boxes</div></a></li>
-                                            <li><a href="navigation.html"><div><i class="icon-align-justify2"></i>Navigations</div></a></li>
-                                            <li><a href="pagination-progress.html"><div><i class="icon-cogs"></i>Pagination</div></a></li>
-                                            <li><a href="pie-skills.html"><div><i class="icon-tasks"></i>Pies &amp; Skills</div></a></li>
+                                            <li><a href="lists-panels.html"><div><i className="icon-th-list"></i>Lists &amp; Panels</div></a></li>
+                                            <li><a href="maps.html"><div><i className="icon-map-marker2"></i>Maps</div></a></li>
+                                            <li><a href="media-embeds.html"><div><i className="icon-play"></i>Media Embeds</div></a></li>
+                                            <li><a href="modal-popovers.html"><div><i className="icon-move"></i>Modal Boxes</div></a></li>
+                                            <li><a href="navigation.html"><div><i className="icon-align-justify2"></i>Navigations</div></a></li>
+                                            <li><a href="pagination-progress.html"><div><i className="icon-cogs"></i>Pagination</div></a></li>
+                                            <li><a href="pie-skills.html"><div><i className="icon-tasks"></i>Pies &amp; Skills</div></a></li>
                                         </ul>
                                         <ul>
-                                            <li><a href="pricing.html"><div><i class="icon-dollar"></i>Pricing Boxes</div></a></li>
-                                            <li><a href="process-steps.html"><div><i class="icon-thumbs-up"></i>Process Steps</div></a></li>
-                                            <li><a href="promo-boxes.html"><div><i class="icon-rocket"></i>Promo Boxes</div></a></li>
-                                            <li><a href="quotes-blockquotes.html"><div><i class="icon-quote-left"></i>Blockquotes</div></a></li>
-                                            <li><a href="responsive.html"><div><i class="icon-laptop2"></i>Responsive</div></a></li>
-                                            <li><a href="sections.html"><div><i class="icon-folder-open"></i>Sections</div></a></li>
-                                            <li><a href="social-icons.html"><div><i class="icon-facebook2"></i>Social Icons</div></a></li>
+                                            <li><a href="pricing.html"><div><i className="icon-dollar"></i>Pricing Boxes</div></a></li>
+                                            <li><a href="process-steps.html"><div><i className="icon-thumbs-up"></i>Process Steps</div></a></li>
+                                            <li><a href="promo-boxes.html"><div><i className="icon-rocket"></i>Promo Boxes</div></a></li>
+                                            <li><a href="quotes-blockquotes.html"><div><i className="icon-quote-left"></i>Blockquotes</div></a></li>
+                                            <li><a href="responsive.html"><div><i className="icon-laptop2"></i>Responsive</div></a></li>
+                                            <li><a href="sections.html"><div><i className="icon-folder-open"></i>Sections</div></a></li>
+                                            <li><a href="social-icons.html"><div><i className="icon-facebook2"></i>Social Icons</div></a></li>
                                         </ul>
                                         <ul>
-                                            <li><a href="style-boxes.html"><div><i class="icon-exclamation-sign"></i>Alert Boxes</div></a></li>
-                                            <li><a href="styled-icons.html"><div><i class="icon-flag2"></i>Styled Icons</div></a></li>
-                                            <li><a href="tables.html"><div><i class="icon-table"></i>Tables</div></a></li>
-                                            <li><a href="tabs.html"><div><i class="icon-star3"></i>Tabs</div></a></li>
-                                            <li><a href="testimonials-twitter.html"><div><i class="icon-user4"></i>Testimonials</div></a></li>
-                                            <li><a href="thumbnails-slider.html"><div><i class="icon-camera3"></i>Thumbnails</div></a></li>
-                                            <li><a href="toggles-accordions.html"><div><i class="icon-ok-circle"></i>Toggles</div></a></li>
+                                            <li><a href="style-boxes.html"><div><i className="icon-exclamation-sign"></i>Alert Boxes</div></a></li>
+                                            <li><a href="styled-icons.html"><div><i className="icon-flag2"></i>Styled Icons</div></a></li>
+                                            <li><a href="tables.html"><div><i className="icon-table"></i>Tables</div></a></li>
+                                            <li><a href="tabs.html"><div><i className="icon-star3"></i>Tabs</div></a></li>
+                                            <li><a href="testimonials-twitter.html"><div><i className="icon-user4"></i>Testimonials</div></a></li>
+                                            <li><a href="thumbnails-slider.html"><div><i className="icon-camera3"></i>Thumbnails</div></a></li>
+                                            <li><a href="toggles-accordions.html"><div><i className="icon-ok-circle"></i>Toggles</div></a></li>
                                         </ul>
                                     </div>
                                 </li>
